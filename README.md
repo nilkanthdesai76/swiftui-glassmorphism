@@ -1,5 +1,6 @@
 # SwiftUI Glassmorphism ❄️
 
+[![CI](https://github.com/nilkanthdesai76/swiftui-glassmorphism/actions/workflows/ci.yml/badge.svg)](https://github.com/nilkanthdesai76/swiftui-glassmorphism/actions)
 A GPU-accelerated frosted glass blur, border gradient highlight, and layered surface library for SwiftUI on iOS 16+ & macOS 13+.
 
 [![Swift](https://img.shields.io/badge/Swift-5.9%20%7C%206.0-orange?style=flat-square&logo=swift)](https://swift.org)
