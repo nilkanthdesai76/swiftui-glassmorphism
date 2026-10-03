@@ -1,0 +1,54 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#gbg)"/>
+  
+  <!-- Glowing orbs behind glass -->
+  <circle cx="280" cy="90" r="70" fill="#38bdf8" fill-opacity="0.3"/>
+  <circle cx="480" cy="180" r="90" fill="#818cf8" fill-opacity="0.3"/>
+  <circle cx="750" cy="100" r="80" fill="#c084fc" fill-opacity="0.25"/>
+
+  <!-- Card 1: Frosted Default -->
+  <g transform="translate(100, 50)">
+    <rect width="230" height="180" rx="16" fill="url(#cardGrad)" stroke="url(#strokeGrad)" stroke-width="1.5"/>
+    <text x="115" y="45" font-family="-apple-system, sans-serif" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">❄️ Frosted Glass</text>
+    <text x="115" y="80" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Multi-layered Material</text>
+    <rect x="30" y="110" width="170" height="36" rx="18" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.2"/>
+    <text x="115" y="133" font-family="-apple-system, sans-serif" font-size="12" fill="#38bdf8" font-weight="600" text-anchor="middle">.glassmorphism()</text>
+  </g>
+
+  <!-- Card 2: Sapphire Tint -->
+  <g transform="translate(385, 50)">
+    <rect width="230" height="180" rx="16" fill="url(#cardGrad)" stroke="url(#strokeGrad)" stroke-width="1.5"/>
+    <rect width="230" height="180" rx="16" fill="#3b82f6" fill-opacity="0.15"/>
+    <text x="115" y="45" font-family="-apple-system, sans-serif" font-size="16" fill="#60a5fa" font-weight="700" text-anchor="middle">💎 Sapphire Tint</text>
+    <text x="115" y="80" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Accent-Infused Glass</text>
+    <rect x="30" y="110" width="170" height="36" rx="18" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.2"/>
+    <text x="115" y="133" font-family="-apple-system, sans-serif" font-size="12" fill="#818cf8" font-weight="600" text-anchor="middle">tint: .sapphire</text>
+  </g>
+
+  <!-- Card 3: Obsidian Dark -->
+  <g transform="translate(670, 50)">
+    <rect width="230" height="180" rx="16" fill="url(#cardGrad)" stroke="url(#strokeGrad)" stroke-width="1.5"/>
+    <rect width="230" height="180" rx="16" fill="#000000" fill-opacity="0.35"/>
+    <text x="115" y="45" font-family="-apple-system, sans-serif" font-size="16" fill="#cbd5e1" font-weight="700" text-anchor="middle">🌑 Obsidian Dark</text>
+    <text x="115" y="80" font-family="-apple-system, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Deep Contrast Surface</text>
+    <rect x="30" y="110" width="170" height="36" rx="18" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.15"/>
+    <text x="115" y="133" font-family="-apple-system, sans-serif" font-size="12" fill="#c084fc" font-weight="600" text-anchor="middle">tint: .obsidian</text>
+  </g>
+</svg>
